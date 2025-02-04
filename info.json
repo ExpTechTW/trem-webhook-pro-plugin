@@ -1,0 +1,14 @@
+{
+  "name": "webhook-pro",
+  "version": "1.0.0",
+  "description": {
+    "zh_tw": "綜合 Webhook"
+  },
+  "author": ["yayacat"],
+  "dependencies": {
+    "trem": ">=3.1.1-rc.2",
+    "config": ">=1.0.4"
+  },
+  "resources": ["AGPL-3.0"],
+  "link": "https://github.com/ExpTechTW/trem-webhook-pro-plugin"
+}

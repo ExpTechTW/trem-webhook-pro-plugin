@@ -1,0 +1,15 @@
+{
+  "timestamp": 1738654601837,
+  "version": "1.0.0",
+  "fileHashes": {
+    "index.js": "461c8987df7c2467e18dde21fbf14c8222811ff9ddf9bac9f1eba07574f279e3",
+    "info.json": "63738cdaa18f2c8d5d6493c1f1616b248e8f2af0ee4ab0a60d01b36bd28be680",
+    "resource/default.yml": "9e2d29624e43597c7a0f68a040aaaf3cb21b5d4c63bc1902d1da58a7b61479f8",
+    "src/eew.js": "1422c959dc65f64e1207d63dea47e57be728f5753e1ba880e33ae19ab3685910",
+    "src/report.js": "0ee18b5188cc3a1baf5e1eea7e26e7ad3be9ffae6159f284e8f2fd5730c29a53",
+    "src/utils/logger.js": "3c7867a1d32bb13bcdb8181e77ba2d06c6a8eb9028dc79091f07b7626c53c8d8",
+    "src/utils/utils.js": "fbec35803d5912e1f42b92d31e81973d2e0f7976c1aa6674d79c8543c5a71321"
+  },
+  "signature": "Z2ebaCLFtpA+nUCHaDNVv1NhTKHiwMjWxeAyMznnnlyX6O2u5Cbx3dRANlaAVk3vCzrbKYbovjqRl0KBMGGMzCXoEIfCt4A4rZ180Sg43L61CyufxbZv9yHOHW61Tnhw5ghPumFxU2evtWShpVglDaOjrcOrBxl8j0UL8Gi1CchJockmS/OVOYxnq81Q9DFQOZZ6NQy9pkEtlKeUhhjun1KZ7Rhfywkzl3tSj1NtTMn/71rGA8XnJ08TAr8fPYChyHkyOgqMQ8iW4DcUOUFNicYUSETeO4WUMXQhNxrAp25sbrqcOzbmhHd25PGzzrqM/D3SWPO8w7b2jFFftlDYtg==",
+  "keyId": "official"
+}
