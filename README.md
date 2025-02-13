@@ -10,7 +10,7 @@
 
 ## 簡介
 
-TREM-EEW-Source-Plugin 適用於 TREM-Lite 3.1.0-rc.2 以上版本。
+trem-webhook-pro-plugin 適用於 TREM-Lite 3.1.1-rc.2 以上版本。用 Webhook 發送綜合資訊。
 
 ### 安裝方式
 
