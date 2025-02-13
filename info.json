@@ -2,7 +2,7 @@
   "name": "webhook-pro",
   "version": "1.0.0",
   "description": {
-    "zh_tw": "綜合 Webhook"
+    "zh_tw": "用 Webhook 發送綜合資訊"
   },
   "author": ["yayacat"],
   "dependencies": {
