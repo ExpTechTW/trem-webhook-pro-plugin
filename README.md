@@ -6,6 +6,7 @@
 <a href="https://github.com/ExpTechTW/TREM-Lite/actions/workflows/github_actions.yml"><img alt="GitHub Workflow Status" src="https://github.com/ExpTechTW/TREM-Lite/actions/workflows/github_actions.yml/badge.svg"></a>
 <a href="https://exptech.dev/trem"><img alt="website" src="https://img.shields.io/badge/website-exptech.dev-purple.svg"></a>
 <a href="https://discord.gg/5dbHqV8ees"><img alt="ExpTech Studio"  src="https://img.shields.io/discord/926545182407688273?color=%235865F2&logo=discord&logoColor=white"></a>
+<img alt="GitHub Downloads (all assets, all releases)" src="https://img.shields.io/github/downloads/ExpTechTW/trem-webhook-pro-plugin/total">
 </div>
 
 ## 簡介
