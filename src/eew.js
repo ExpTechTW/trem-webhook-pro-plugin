@@ -46,6 +46,8 @@ class eew {
 
         if (data.author == "cwb")
         Unit = "中央氣象署 (CWA)";
+        else if (data.author == "cwa")
+        Unit = "中央氣象署 (CWA)";
         else if (data.author == "scdzj")
         Unit = "四川省地震局 (SCDZJ)";
         else if (data.author == "fjdzj")
@@ -84,6 +86,8 @@ class eew {
         .replace("%Final%", (data.final) ? "(最終報)" : "");
 
         if (data.author == "cwb")
+        msg = msg.replace("%Provider%", "中央氣象署 (CWA)");
+        else if (data.author == "cwa")
         msg = msg.replace("%Provider%", "中央氣象署 (CWA)");
         else if (data.author == "scdzj")
         msg = msg.replace("%Provider%", "四川省地震局 (SCDZJ)");
