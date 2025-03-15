@@ -1,18 +1,21 @@
 const config = require("../config/config");
 const eew = require("./src/eew");
+const intensity = require("./src/intensity");
 const report = require("./src/report");
 
 class Plugin {
   #ctx;
   #config;
-  #eew;
   #report;
+  #eew;
+  #intensity;
 
   constructor(ctx) {
     this.#ctx = ctx;
     this.#config = null;
-    this.#eew = null;
     this.#report = null;
+    this.#eew = null;
+    this.#intensity = null;
     this.config = {};
   }
 
@@ -29,8 +32,9 @@ class Plugin {
     this.#config = new config("webhook-pro", this.logger, utils.fs, defaultDir, configDir);
     this.config = this.#config.getConfig();
 
-    this.#eew = new eew(this.logger, this.config);
     this.#report = new report(this.logger, this.config);
+    this.#eew = new eew(this.logger, this.config);
+    this.#intensity = new intensity(this.logger, this.config);
 
     logger.info("Loading webhook-pro plugin...");
 
@@ -46,6 +50,13 @@ class Plugin {
 
     event("EewUpdate", (ans) => {
       this.#eew.sendEew(ans);
+    });
+
+    event('IntensityRelease', (ans) => {
+      this.#intensity.sendIntensity(ans);
+    });
+    event('IntensityUpdate', (ans) => {
+      this.#intensity.sendIntensity(ans);
     });
   }
 }
